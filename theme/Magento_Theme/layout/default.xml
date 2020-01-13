@@ -8,20 +8,6 @@
         <css src="css/source/header.css" />
         <css src="css/styles-l.css" />
 
-
-        <!-- Remove external resources -->
-       <!--  <remove src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
-        <remove src="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"/>
-        <remove src="pub/media/assets/css/all.css" />
-        <remove src="pub/media/assets/css/style.css" /> -->
-
-        <!-- <remove src="https://code.jquery.com/jquery-3.3.1.slim.min.js" />
-        <remove src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" />
-        <remove src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" />
-        <remove src="pub/media/assets/js/script.js" /> -->
-
-
-
     </head>
 
     <body>
@@ -40,6 +26,9 @@
         <referenceBlock name="footer_links" remove="true"/>
         <referenceBlock name="form.subscribe" remove="true" />
         <referenceBlock name="copyright" remove="true"/>
+
+<!--        <referenceBlock name="navigation.sections" remove="true"/>-->
+<!--        <referenceBlock name="minicart" remove="true"/>-->
 
 
         <move element="navigation.sections" destination="header-wrapper" />
@@ -65,10 +54,28 @@
 <!--        </container>-->
 
 
+<!--        <referenceContainer name="page.wrapper">-->
+<!--            <container name="custom.header" htmlTag="header" htmlClass="header">-->
+<!--                <block class="Magento\Framework\View\Element\Template" name="row" template="Magento_Theme::html/row.phtml">-->
+<!--                    <block class="Magento\Framework\View\Element\Template" name="header.column1" template="Magento_Theme::html/column1.phtml" before="header.column2"/>-->
+<!--                    <block class="Magento\Framework\View\Element\Template" name="header.column2" template="Magento_Theme::html/column2.phtml" after="header.column1">-->
+<!--&lt;!&ndash;                        <block class="Magento\Theme\Block\Html\Header\Logo" name="logo" after="header.column1" />&ndash;&gt;-->
+<!--                    </block>-->
+<!--                    <block class="Magento\Framework\View\Element\Template" name="header.column3" template="Magento_Theme::html/column3.phtml" after="header.column2"/>-->
+<!--                </block>-->
+<!--            </container>-->
+<!--        </referenceContainer>-->
 
 
 
+<!--            <referenceContainer name="header.container">-->
+<!--                <block class="Magento\Framework\View\Element\Template" name="header.mini.container" template="Magento_Theme::column1.phtml"/>-->
+<!--            </referenceContainer>-->
 
+
+<!--    <referenceBlock name="head.additional">-->
+<!--          <block class="Magento\Framework\View\Element\Template" name="custom_header" as="custom_header" template="Magento_Theme::header.phtml"/>-->
+<!--    </referenceBlock>-->
 
 
 

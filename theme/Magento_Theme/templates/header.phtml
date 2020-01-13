@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="pub/assets/css/carousel.css">
+    <!--favicon-->
+    <link rel="shortcut icon" href="pub/assets/favicon.ico">
+    <!--.favicon-->
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
+          rel="stylesheet">
+    <!--.font-->
+    <!--font awesome -->
+    <link href="pub/assets/css/all.css" rel="stylesheet">
+    <!--.font awesome -->
+    <!--common style-->
+    <link rel="stylesheet" href="pub/assets/css/style.css">
+
+
+
+    <!--.common style-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
+          rel="stylesheet">
+
+
+    <title>Your everyday office needs | Gemsclip.com</title>
+
+    <style>
+        body{
+            padding: 0!important;
+        }
+        header {
+            position: absolute;
+            width: 100%;
+            background: #1E1612;
+        }
+        .dashboard-wrapper {
+            width: 900px;
+            margin: 0 auto;
+            font-family: 'Roboto', sans-serif;
+            color: #666666;
+            display: table;
+            font-size: 16px;
+            padding-top: 200px;
+            padding-bottom: 80px;
+        }
+
+        ul.dashboard-item-group {
+            margin: 0 0 40px;
+            padding: 0;
+            width: 100%;
+            float: left;
+        }
+
+        li.dashboard-item {
+            list-style: none;
+            float: left;
+            margin-right: 30px;
+        }
+
+
+        a.dashboard-item-box {
+            -webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.5);
+            -moz-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.5);
+            box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.2);
+            padding: 40px 20px 20px;
+            width: 270px;
+            height: 220px;
+            text-align: center;
+            display: block;
+            text-decoration: none;
+            color: #666;
+            transition: transform .5s ease;
+            margin-bottom: 30px;
+        }
+
+        a.dashboard-item-box:hover {
+            -webkit-box-shadow: 1px 1px 15px 0px rgba(50, 50, 50, 0.5);
+            -moz-box-shadow: 1px 1px 15px 0px rgba(50, 50, 50, 0.5);
+            box-shadow: 1px 1px 15px 0px rgba(50, 50, 50, 0.2);
+        }
+
+        p.heading {
+            text-transform: uppercase;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        p.sub-heading {
+            margin: 10px;
+        }
+
+        .icon-wrapper {
+            margin-bottom: 15px;
+        }
+        @media only screen and (max-width: 960px) {
+            a.dashboard-item-box{
+                width: 200px;
+                height: 260px;
+            }
+            .dashboard-wrapper {
+                width: 690px;
+                margin: 0 auto;
+            }
+        }
+        @media only screen and (max-width: 767px) {
+            .dashboard-wrapper {
+                width: 460px;
+            }
+        }
+        @media only screen and (max-width: 560px) {
+            .dashboard-wrapper {
+                width: 460px;
+            }
+        }
+        @media only screen and (max-width: 460px){
+            .dashboard-wrapper {
+                width: 230px;
+            }
+        }
+    </style>
+
+
+</head>
+<body>
+<!--header code goes here-->
+<header>
+    <nav class="navbar navbar-expand-md fixed-top bg-transparent display-none-on-phone">
+        <a class="navbar-brand" href="http://www.gemsclip.com"><img src=<?=$block->getViewFileUrl("images/logo.png");?> alt="logo"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <img src=<?=$block->getViewFileUrl("images/mobile-menu-icon.png");?>  alt="menu"/>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/contacts"><i class="fas fa-envelope"></i>Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="customer/account/logout/"><i class="fas fa-sign-out-alt"></i>Sign out</a>
+                </li>
+                <li class="nav-item">
+                    <!-- <a class="nav-link" href="/customer/account/create/"><i class="far fa-edit"></i>Become a member</a> -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/checkout/cart"><i class="fas fa-shopping-cart"></i>Cart</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-transparent main-nav">
+        <a class="navbar-brand display-block-on-phone" href="#"><img src=<?=$block->getViewFileUrl("images/logo.png");?>   alt="logo"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div id="nav-icon0">
+//                 <span><?php echo $this->getChildHtml("catalog.topnav"); ?></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="display-block-on-phone">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/contacts"><i class="fas fa-envelope"></i>Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/customer/account/login"><i class="fas fa-sign-out-alt"></i>Sign out</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/checkout/cart"><i class="fas fa-shopping-cart"></i>Cart</a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Stationary
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/stationary/other-products.html">Bags & Briefcases</a>
+                        <a class="dropdown-item" href="/stationary/binders-files-folders.html">Binders Files Folders</a>
+                        <a class="dropdown-item" href="/stationary/office-basics/desk-organizers.html">Desk
+                            Organizers</a>
+                        <a class="dropdown-item" href="stationary/notebooks-pads.html">Notebooks
+                            and Diary</a>
+                        <a class="dropdown-item"
+                           href="stationary/office-basics/sticky-notes.html">Post-it & Sticky
+                            Notes</a>
+                        <a class="dropdown-item"
+                           href="stationary/other-products/stamps-pads.html">Stamps & Stamp
+                            Pads</a>
+                        <a class="dropdown-item"
+                           href="stationary/other-products/tape-fasteners-mounting.html">Tape,
+                            Fasteners & Adhesives</a>
+                        <a class="dropdown-item" href="stationary/writing-supplies.html">Writing
+                            Supplies & Instruments</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Cleaning
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                        <a class="dropdown-item" href="house-keeping/health-hygiene.html">Air
+                            Fresheners And Deodorizers</a>
+                        <a class="dropdown-item" href="house-keeping/cleaning-maintenance.html">Brooms,
+                            Dustpans & Brushes</a>
+                        <a class="dropdown-item" href="house-keeping/cleaning-maintenance.html">Dish
+                            Soap & Detergent</a>
+                        <a class="dropdown-item" href="house-keeping/health-hygiene.html">First
+                            Aid</a>
+                        <a class="dropdown-item" href="house-keeping/health-hygiene.html">Hard
+                            Floor Care</a>
+                        <a class="dropdown-item" href="house-keeping/health-hygiene.html">Health
+                            and Hygiene</a>
+                        <a class="dropdown-item" href="house-keeping/cleaning-maintenance.html">Maintenance
+                            Tools</a>
+                        <a class="dropdown-item" href="house-keeping/tissues-paper.html">Paper
+                            Towels, Tissues & Dispensers</a>
+                        <a class="dropdown-item" href="house-keeping/cleaning-maintenance.html">Safety
+                            Supplies</a>
+                        <a class="dropdown-item" href="house-keeping/cleaning-maintenance.html">Tools,
+                            Parts & Supplies</a>
+                        <a class="dropdown-item" href="house-keeping/cleaning-maintenance.html">Waste
+                            Management & Recycling</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Pantry
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                        <a class="dropdown-item" href="house-keeping/canteen-item.html">All
+                            Beverages</a>
+                        <a class="dropdown-item" href="house-keeping/canteen-item.html">Chocolate
+                            & Candy</a>
+                        <a class="dropdown-item" href="house-keeping/canteen-item.html">Coffee &
+                            Tea</a>
+                        <a class="dropdown-item" href="house-keeping/canteen-item.html">Cookies
+                            & Bars</a>
+                        <a class="dropdown-item" href="house-keeping/canteen-item.html">Fruit
+                            Snacks & Cups</a>
+                        <a class="dropdown-item"
+                           href="house-keeping/canteen-item.html">Juices</a>
+                        <a class="dropdown-item" href="house-keeping/canteen-item.html">Nuts &
+                            Seeds</a>
+                        <a class="dropdown-item" href="house-keeping/canteen-item.html">Spreads
+                            & Sweeteners</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        IT & Electronics
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                        <a class="dropdown-item"
+                           href="electrical-product/electronics-accessories.html">Batteries &
+                            Power</a>
+                        <a class="dropdown-item"
+                           href="electrical-product/electronics-accessories.html">Cell Phone
+                            Accessories</a>
+                        <a class="dropdown-item" href="computer-laptop.html">Computer
+                            Accessories</a>
+                        <a class="dropdown-item" href="computer-laptop.html">Computer
+                            Monitors</a>
+                        <a class="dropdown-item" href="computer-laptop.html">Computer
+                            Software</a>
+                        <a class="dropdown-item" href="computer-laptop.html">Computers</a>
+                        <a class="dropdown-item"
+                           href="electrical-product/electronics-accessories.html">GPS</a>
+                        <a class="dropdown-item" href="computer-laptop.html">Hard Drives & Data
+                            Storage</a>
+                        <a class="dropdown-item" href="computer-laptop.html">Laptop & Laptop
+                            Accessories</a>
+                        <a class="dropdown-item" href="computer-laptop.html">Networking &
+                            WiFi</a>
+                        <a class="dropdown-item" href="electrical-product/electronics.html">Office
+                            Electronics</a>
+                        <a class="dropdown-item"
+                           href="photocopier-printing.html">Photocopiers</a>
+                        <a class="dropdown-item" href="photocopier-printing.html">Printer and
+                            Scanners</a>
+                        <a class="dropdown-item" href="computer-laptop.html">Shredders,
+                            Projectors & Office Machines</a>
+                        <a class="dropdown-item" href="electrical-product/safety-security.html">Surveillance
+                            & Security Cameras</a>
+                        <a class="dropdown-item"
+                           href="electrical-product/electronics-accessories.html">Toners &
+                            Cartridges</a>
+                        <a class="dropdown-item" href="electrical-product.html">Wearable
+                            Technology</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/wishlist"><i class="far fa-heart"></i>My Product</a>
+                </li>
+                <!--  <li class="nav-item">
+                     <button class="nav-link search-btn" onclick="mySearchFunction()"><i class="fas fa-search"></i>
+                     </button>
+                     <div id="searchDIV">
+                         <form>
+                             <div class="form-group">
+                                 <input type="search" class="form-control" placeholder="Search">
+                             </div>
+                         </form>
+                     </div>
+                 </li> -->
+            </ul>
+
+
+        </div>
+    </nav>
+</header>
+<!--.header code goes here-->
+
+
+
+
+<!-- footer -->
+
+<!--.footer-->
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="pub/assets/js/script.js"></script>
+</body>
+</html>
