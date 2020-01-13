@@ -74,7 +74,7 @@
 
 
 <!--    <referenceBlock name="head.additional">-->
-<!--          <block class="Magento\Framework\View\Element\Template" name="custom_header" as="custom_header" template="Magento_Theme::header.phtml"/>-->
+<!--          <block class="Magento\Framework\View\Element\Template" name="custom_header" as="custom_header" template="Magento_Theme::main-header.phtml"/>-->
 <!--    </referenceBlock>-->
 
 
