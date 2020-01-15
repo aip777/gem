@@ -7,6 +7,7 @@
         <css src="css/source/login.css" />
         <css src="css/source/header.css" />
         <css src="css/styles-l.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
     </head>
 
@@ -19,6 +20,7 @@
                 <argument name="logo_img_height" xsi:type="number">64</argument>
             </arguments>
         </referenceBlock>
+        <move element="logo" destination="top.links" />
 
 
         <referenceBlock name="advanced-search-link" remove="true"/>
@@ -31,17 +33,36 @@
 <!--        <referenceBlock name="minicart" remove="true"/>-->
 
 
+<!--        <move element="navigation.sections" destination="header.container" />-->
+<!--        <move element="minicart" destination="top.links"   />-->
+<!--        <move element="header.container" destination="head.additional"   />-->
+<!--        <referenceBlock name="top.search" remove="true" />-->
+
+
         <move element="navigation.sections" destination="header-wrapper" />
-        <move element="minicart" destination="header.panel"  before="-" />
+        <move element="minicart" destination="top.links"  />
         <referenceBlock name="top.search" remove="true" />
 
+<!--        <referenceBlock name="header.container" remove="true" />-->
 
+<!--            <referenceBlock name="head.additional">-->
+<!--          <block class="Magento\Framework\View\Element\Template" name="custom_header" as="custom_header" template="Magento_Theme::main-header.phtml"/>-->
+<!--            </referenceBlock>-->
 
         <referenceContainer name="footer">
 
             <block class="Magento\Framework\View\Element\Template" name="footer-two" template="Magento_Theme::footer-main.phtml"></block>
         </referenceContainer>
 
+        <referenceBlock name="catalog.topnav">
+                  <block class="Magento\Framework\View\Element\Template" name="custom-link" template="Magento_Theme::text.phtml" after="-" />
+       </referenceBlock>
+
+
+
+<!--        <referenceBlock name="top.links">-->
+<!--            <block class="Magento\Framework\View\Element\Template" name="tlink.them" before="-" template="Magento_Theme::text.phtml"/>-->
+<!--        </referenceBlock>-->
 
 
 <!--     <container name="helplink.container" as="helplinkContainer" label="helplink Container" htmlTag="div" htmlClass="help-link">-->
@@ -73,9 +94,7 @@
 <!--            </referenceContainer>-->
 
 
-<!--    <referenceBlock name="head.additional">-->
-<!--          <block class="Magento\Framework\View\Element\Template" name="custom_header" as="custom_header" template="Magento_Theme::main-header.phtml"/>-->
-<!--    </referenceBlock>-->
+
 
 
 

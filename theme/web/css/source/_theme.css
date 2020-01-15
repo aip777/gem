@@ -64,3 +64,31 @@ body{
     padding-right: 20px;
     width: auto;
 }*/
+
+
+
+
+
+.header.panel>.header.links {
+    float: right;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none none;
+    margin-left: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+
+ .header.panel>.header.links>li {
+    font-size: 14px;
+    margin: 0 0 0 15px;
+    float: right;
+}
+
+
+.page-header .header.panel {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
