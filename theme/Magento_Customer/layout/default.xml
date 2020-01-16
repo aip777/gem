@@ -3,13 +3,15 @@
     <head>
         
 
+        <css src="Magento_Customer::css/customer-account.css" />
+
     </head>
 
     <body>
 
-        <referenceBlock name="form.subscribe" remove="true"/>
-        <referenceBlock name="footer_links" remove="true"/>
-        <referenceBlock name="footer.newsletter" remove="true"/>
+                <referenceBlock name="form.subscribe" remove="true"/>
+                <referenceBlock name="footer_links" remove="true"/>
+                <referenceBlock name="footer.newsletter" remove="true"/>
 
 
                 <referenceBlock name="customer-account-navigation-downloadable-products-link" remove="true"/>

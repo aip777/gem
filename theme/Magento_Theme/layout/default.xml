@@ -54,6 +54,11 @@
             <block class="Magento\Framework\View\Element\Template" name="footer-two" template="Magento_Theme::footer-main.phtml"></block>
         </referenceContainer>
 
+<!--        <referenceContainer name="footer">-->
+
+<!--            <block class="Magento\Framework\View\Element\Template" name="footer-one" template="Magento_Theme::footer-content.phtml"></block>-->
+<!--        </referenceContainer>-->
+
         <referenceBlock name="catalog.topnav">
                   <block class="Magento\Framework\View\Element\Template" name="custom-link" template="Magento_Theme::text.phtml" after="-" />
        </referenceBlock>
