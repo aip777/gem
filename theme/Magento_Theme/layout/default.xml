@@ -7,6 +7,8 @@
         <css src="css/source/login.css" />
         <css src="css/source/header.css" />
         <css src="css/styles-l.css" />
+        <css src="css/source/common.css" />
+        <css src="css/source/styles-m.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
     </head>
