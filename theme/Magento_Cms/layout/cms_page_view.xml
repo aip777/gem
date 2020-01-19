@@ -15,6 +15,7 @@
         <remove src="http://fonts.googleapis.com/css?family=Montserrat" />
 
         <remove src="css/source/common.css" />
+        <remove src="css/source/_theme.css" />
 
 
     </head>

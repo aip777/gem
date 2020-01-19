@@ -2,13 +2,9 @@
 
     <head>
         <css src="css/source/_theme.css" rel="stylesheet" type="text/css" />
-        <css src="css/source/main_css.css" rel="stylesheet" type="text/css" />
 
-        <css src="css/source/login.css" />
-        <css src="css/source/header.css" />
-        <css src="css/styles-l.css" />
         <css src="css/source/common.css" />
-        <css src="css/source/styles-m.css" />
+
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
     </head>
@@ -57,9 +53,7 @@
         </referenceContainer>
 
 
-        <referenceContainer name="page.bottom.container">
-             <block class="Magento\Framework\View\Element\Template" name="footer-two-before" template="Magento_Theme::footer-before.phtml"/>
-        </referenceContainer>
+      
 
 <!--        <referenceContainer name="footer">-->
 
