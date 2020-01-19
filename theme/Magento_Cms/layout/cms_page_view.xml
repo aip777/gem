@@ -14,6 +14,8 @@
         <remove src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"/>
         <remove src="http://fonts.googleapis.com/css?family=Montserrat" />
 
+        <remove src="css/source/common.css" />
+
 
     </head>
     <body>

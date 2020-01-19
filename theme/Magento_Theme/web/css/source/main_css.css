@@ -1,7 +1,0 @@
-@media (min-width: 768px), print{
-    .page-header {
-        background-color: black;
-        border: 0;
-        margin-bottom: 0;
-    }
-}
