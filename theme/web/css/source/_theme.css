@@ -10,9 +10,9 @@ body{
 
 .block-search {
     float: left;
-    padding-left: 60px;
+    padding-left: 500px;
     position: relative;
-    width: 40%;
+    width: 70%;
     z-index: 4;
 }
 
@@ -25,7 +25,14 @@ body{
 
 
 
-
+.nav-sections {
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    -webkit-flex-basis: auto;
+    flex-basis: auto;
+    margin-bottom: 25px;
+    background-color: black;
+}
 
 
 .navigation ul {
@@ -96,6 +103,9 @@ body{
         margin-bottom: 0;
     }
 }
+
+
+
 
 
 

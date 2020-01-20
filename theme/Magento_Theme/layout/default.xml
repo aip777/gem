@@ -38,9 +38,10 @@
 <!--        <referenceBlock name="top.search" remove="true" />-->
 
 
-        <move element="navigation.sections" destination="header-wrapper" />
+<!--        <move element="navigation.sections" destination="header-wrapper" />-->
         <move element="minicart" destination="top.links"  />
-        <referenceBlock name="top.search" remove="true" />
+        <move element="top.search" destination="header-wrapper"  before="navigation.sections" />
+<!--        <referenceBlock name="top.search" remove="true" />-->
 
 <!--        <referenceBlock name="header.container" remove="true" />-->
 
