@@ -18,7 +18,7 @@
                 <argument name="logo_img_height" xsi:type="number">64</argument>
             </arguments>
         </referenceBlock>
-        <move element="logo" destination="top.links" />
+        <move element="logo" destination="header-wrapper" />
 
 
         <referenceBlock name="advanced-search-link" remove="true"/>

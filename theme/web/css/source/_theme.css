@@ -8,13 +8,9 @@ body{
 }
 
 
-.block-search {
-    float: left;
-    padding-left: 500px;
-    position: relative;
-    width: 70%;
-    z-index: 4;
-}
+
+
+
 
 
 .account-nav .item .delimiter {
@@ -32,6 +28,7 @@ body{
     flex-basis: auto;
     margin-bottom: 25px;
     background-color: black;
+    padding-bottom: 30px;
 }
 
 
@@ -131,6 +128,23 @@ body{
     font-size: 14px;
     margin: 0 0 0 15px;
     float: right;
+}
+
+
+.block-search input {
+    margin: 0;
+    padding-right: 55px;
+    position: static;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.block-search {
+    float: left;
+    padding-left: 250px;
+    position: relative;
+    width: 60%;
+    z-index: 4;
 }
 
 
