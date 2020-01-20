@@ -51,7 +51,7 @@
         <!-- <referenceContainer name="main.content" htmlTag="main" htmlClass="page-main-full-width" /> -->
 
 
-<!--        <referenceBlock name="footer_links" remove="true"/>-->
+        <referenceBlock name="footer_links" remove="true"/>
 
 
         <referenceBlock name="form.subscribe" remove="true" />
@@ -62,6 +62,7 @@
         <referenceBlock name="advanced-search-link" remove="true"/>
 
         <referenceBlock name="top.search" remove="true" />
+         <referenceBlock name="footer" remove="true"/>
 
 
 

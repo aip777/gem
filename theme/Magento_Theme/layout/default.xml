@@ -27,6 +27,7 @@
         <referenceBlock name="form.subscribe" remove="true" />
         <referenceBlock name="copyright" remove="true"/>
 
+
 <!--        <referenceBlock name="navigation.sections" remove="true"/>-->
 <!--        <referenceBlock name="minicart" remove="true"/>-->
 
@@ -53,7 +54,7 @@
         </referenceContainer>
 
 
-      
+
 
 <!--        <referenceContainer name="footer">-->
 
