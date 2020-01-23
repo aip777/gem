@@ -18,7 +18,7 @@
                 <argument name="logo_img_height" xsi:type="number">64</argument>
             </arguments>
         </referenceBlock>
-        <move element="logo" destination="header-wrapper" />
+
 
 
         <referenceBlock name="advanced-search-link" remove="true"/>
@@ -39,9 +39,13 @@
 
 
 <!--        <move element="navigation.sections" destination="header-wrapper" />-->
+<!--        <move element="minicart" destination="header-wrapper"  />-->
         <move element="minicart" destination="top.links"  />
-        <move element="top.search" destination="header-wrapper"  before="navigation.sections" />
+        <move element="top.search" destination="top.links"   />
+        <move element="logo" destination="top.links" />
 <!--        <referenceBlock name="top.search" remove="true" />-->
+
+<!--        <referenceContainer name="footer-container" remove="true"/>-->
 
 <!--        <referenceBlock name="header.container" remove="true" />-->
 
@@ -49,10 +53,17 @@
 <!--          <block class="Magento\Framework\View\Element\Template" name="custom_header" as="custom_header" template="Magento_Theme::main-header.phtml"/>-->
 <!--            </referenceBlock>-->
 
-        <referenceContainer name="footer">
+        <referenceContainer name="footer-container">
 
             <block class="Magento\Framework\View\Element\Template" name="footer-two" template="Magento_Theme::footer-main.phtml"/>
         </referenceContainer>
+
+
+
+
+<!--        <referenceContainer name="footer-container">-->
+<!--              <block class="Magento\Theme\Block\Html\Footer" name="custom_block" as="custom_block" template="Magento_Theme::column2.phtml"/>-->
+<!--            </referenceContainer>-->
 
 
 

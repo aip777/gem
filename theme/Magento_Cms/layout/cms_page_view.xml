@@ -63,6 +63,8 @@
 
         <referenceBlock name="top.search" remove="true" />
          <referenceBlock name="footer" remove="true"/>
+         <referenceBlock name="footer-container" remove="true"/>
+
 
 
 
