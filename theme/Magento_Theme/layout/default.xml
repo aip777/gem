@@ -4,7 +4,7 @@
         <css src="css/source/_theme.css" rel="stylesheet" type="text/css" />
 
         <css src="css/source/common.css" />
-
+        <script src="js/modernizr.js" />
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
@@ -43,7 +43,7 @@
 
 <!--        <move element="navigation.sections" destination="header-wrapper" />-->
 <!--        <move element="minicart" destination="header-wrapper"  />-->
-        <move element="minicart" destination="top.links"  />
+        <move element="minicart" destination="top.links" />
         <move element="top.search" destination="top.links"   />
         <move element="logo" destination="top.links" />
         <move element="custom-header-link" destination="top.links" before="-" />

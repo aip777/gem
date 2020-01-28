@@ -1,1 +1,17 @@
 <h1>Column Three</h1>
+
+
+<?php
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+$customerSession = $objectManager->create('Magento\Customer\Model\Session');
+if($customerSession->isLoggedIn()) : ?>
+	<span class="header_account_link_list logout">
+		<a class= "header_account_link" href="<?php echo $this->getUrl("customer/account/logout");?>"><?php echo __('Logout')?></a>
+	</span>
+<?php else: ?>
+	<span class="header_account_link_list login">
+	<button onclick="myFunction()">
+		<a class= "header_account_link" href="<?php echo $this->getUrl("customer/account/login");?>"><?php echo __('Sign in')?></a>
+		</button>
+	</span>
+<?php endif;?>

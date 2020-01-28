@@ -3,10 +3,12 @@
    <body>
              <referenceBlock name="minicart" remove="false" />
              <referenceContainer name="header.panel" remove="false" />
-<!--             <referenceBlock name="navigation.sections" remove="false" />-->
-<!--             <referenceBlock name="catalog.topnav" remove="false"/>-->
-<!--             <referenceContainer name="footer-container"  remove="false"/>-->
+             <referenceBlock name="navigation.sections" remove="false" />
+             <referenceBlock name="catalog.topnav" remove="false"/>
+             <referenceContainer name="footer-container"  remove="false"/>
              <referenceContainer name="header.container"  remove="false"/>
+
+            <referenceBlock name="panel.wrapper" remove="false" />
 
 
 
