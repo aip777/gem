@@ -6,17 +6,11 @@ body{
     line-height: 1.42857143;
     font-size: 1.4rem;
 }
-
-
-
 .account-nav .item .delimiter {
      border-top: 0px solid #d1d1d1;
     display: block;
     margin: 10px 1.8rem;
 }
-
-
-
 .nav-sections {
     -webkit-flex-shrink: 0;
     flex-shrink: 0;
@@ -26,7 +20,6 @@ body{
     background-color: black;
     padding-bottom: 30px;
 }
-
 
 .navigation ul {
     margin-top: 0;
@@ -79,7 +72,7 @@ body{
 
 
 
-.navigation, .breadcrumbs, .page-header .header.panel, .header.content, .footer.content, .page-wrapper>.widget, .page-wrapper>.page-bottom, .block.category.event, .top-container, .page-main {
+.navigation, .breadcrumbs, .page-header .header.panel, .header.content, .page-wrapper>.widget, .page-wrapper>.page-bottom, .block.category.event, .top-container, .page-main .footer .content, .content {
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
@@ -110,13 +103,13 @@ body{
 
 .header.panel>.header.links {
     float: right;
-    font-size:13px;
+    font-size: 0;
     margin: 0;
     padding: 0;
     list-style: none none;
     margin-left: auto;
     width: 100%;
-    padding: 50px;
+    padding: 10px;
 }
 
 
@@ -139,9 +132,10 @@ body{
     float: left;
     padding-left: 250px;
     position: relative;
-    width: 50%;
+    width: 60%;
     z-index: 4;
 }
+
 
 .minicart-wrapper {
     display: inline-block;
@@ -151,7 +145,7 @@ body{
 }
 
 
-ul>li, ol>li {
+/*ul>li, ol>li {
     display: inline;
 
 }
@@ -162,17 +156,7 @@ ul, ol {
     list-style-type: none;
     float: right;
 
-}
-
-
-
-
-
-
-
-
-
-
+}*/
 
 
 
