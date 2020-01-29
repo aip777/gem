@@ -1,5 +1,8 @@
 body {
-  background: #F3F3F3;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #707070;
+  padding: 3rem 0 0 !important;
 }
 
 main#maincontent {
@@ -41,14 +44,9 @@ li.nav.item.current {
 }
 
 footer {
-  padding: 30px 0;
   background: #f5f5f5;
-  background: url(http://127.0.0.1/magento2/pub/static/version1579164555/frontend/gem/theme/en_US/images/media/footer-bg.png) center;
+  background: url(http://127.0.0.1/magento2/pub/media/assets/img/footer-bg.png) center;
   background-size: cover;
-}
-footer.page-footer {
-  padding: 0 !important;
-  background: none !important;
 }
 footer.page-footer h2 {
   font-size: 1.6rem;
@@ -66,6 +64,188 @@ footer .content ul > li {
 .column-new-add {
   height: auto !important;
   background: #fff !important;
+}
+
+header.page-header {
+  padding: 20px 0 0;
+}
+header.page-header ul.header li a {
+  color: #ffffff;
+  margin-right: 10px;
+}
+header.page-header .minicart-wrapper a {
+  color: #8FC964;
+}
+header.page-header .navigation ul li a, header.page-header .navigation ul li a span {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #fff !important;
+  font-weight: 400;
+  text-transform: capitalize !important;
+}
+header.page-header .navigation ul li a i {
+  color: #8FC964;
+}
+header.page-header .block-search input {
+  max-width: 400px;
+}
+
+.why-us-footer-block {
+  background: #fff;
+  padding: 40px;
+}
+
+.footer.content {
+  max-width: 100% !important;
+  background: #fff;
+  padding: 0 !important;
+  margin-top: 0 !important;
+}
+
+.row-new {
+  display: table;
+}
+.row-new .column-new-add {
+  display: table-cell;
+  padding: 0 20px 20px 0;
+}
+
+.footer-list-wrapper {
+  padding: 30px !important;
+  background: #f5f5f5;
+  background: url(http://127.0.0.1/magento2/pub/media/assets/img/footer-bg.png) center;
+  background-size: cover;
+}
+
+.page-wrapper {
+  background: #f5f5f5;
+}
+
+a.dashboard-item-box {
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.2);
+  padding: 40px 20px 20px;
+  width: 210px;
+  height: 180px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: #666;
+  transition: transform 0.5s ease;
+  margin-bottom: 30px;
+  background: #fff;
+}
+
+.dashboard-wrapper {
+  width: 900px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  color: #666666;
+  display: table;
+  font-size: 16px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+a.dashboard-item-box {
+  width: 210px !important;
+  height: 175px !important;
+}
+
+.dashboard-wrapper {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+ul.dashboard-item-group {
+  margin: 0 0 40px;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+/*footer styles*/
+footer .content ul > li {
+  margin: 0 !important;
+  list-style: inside !important;
+  font-size: 13px !important;
+}
+footer .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+footer .col-md-4 {
+  -ms-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+footer hr {
+  border-top: 1px solid #707070;
+}
+footer .copyright {
+  text-align: center !important;
+  color: #707070;
+}
+footer li.list-group-item {
+  padding: 2px 20px;
+  background: transparent;
+  position: relative;
+  display: block;
+  margin-bottom: -1px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+footer li.list-group-item.active, footer li.list-group-item.active a {
+  color: #fff;
+  background: transparent;
+  border: transparent;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  z-index: 2;
+}
+footer li.list-group-item.active a {
+  padding-left: 0;
+}
+footer li.list-group-item a {
+  color: #ccc;
+}
+footer .why-us-footer-block ul {
+  padding: 0 0 0 10px;
+  text-indent: -18px;
+  margin-left: 10px;
+}
+
+/*footer styles*/
+form#search_mini_form {
+  max-width: 400px;
+  position: relative !important;
+}
+form#search_mini_form .block-search input {
+  max-width: 400px;
+  border-radius: 4px;
+  padding-left: 15px;
+}
+form#search_mini_form .block-search .action.search {
+  display: inline-block;
+  background-image: none;
+  background: none;
+  -moz-box-sizing: content-box;
+  border: 0;
+  box-shadow: none;
+  line-height: inherit;
+  margin: 0;
+  text-decoration: none;
+  text-shadow: none;
+  font-weight: 400;
+  padding: 5px 0;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=common.css.map */
