@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33a285d7-e91f-4bf6-a971-66429b7812ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/theme/web/images/footer-bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/Magento_Theme/templates/footer-main.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/theme/Magento_Theme/templates/footer-main.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/Magento_Theme/templates/html/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/theme/Magento_Theme/templates/html/index.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/web/css/source/_theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/theme/web/css/source/_theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/web/css/source/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/theme/web/css/source/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/web/css/source/common.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/theme/web/css/source/common.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/web/css/source/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/web/css/source/common.scss" afterDir="false" />
-    </list>
+    <list default="true" id="33a285d7-e91f-4bf6-a971-66429b7812ef" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +28,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../code/HelloWorld/HelloWorld/view/frontend/templates/index.phtml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -79,8 +70,16 @@
       <workItem from="1579691319180" duration="1399000" />
       <workItem from="1579755818977" duration="196000" />
       <workItem from="1580203843001" duration="6074000" />
-      <workItem from="1580266225016" duration="2461000" />
+      <workItem from="1580266225016" duration="2812000" />
     </task>
+    <task id="LOCAL-00001" summary="dashboard design">
+      <created>1580268715416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580268715416</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,5 +97,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dashboard design" />
+    <option name="LAST_COMMIT_MESSAGE" value="dashboard design" />
   </component>
 </project>
