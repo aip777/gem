@@ -9,14 +9,16 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
 
-<!--&lt;!&ndash;        Default CSS JS&ndash;&gt;-->
+<!--&lt;!&ndash;   Default CSS JS&ndash;&gt;-->
 <!--          <css src="css/my-styles.css"/>-->
 <!--        <script src="Magento_Catalog::js/sample1.js"/>-->
 <!--        <link src="js/sample.js"/>-->
 <!--        <css src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" src_type="url" />-->
 <!--        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" src_type="url" />-->
 <!--        <link rel="stylesheet" type="text/css" src="http://fonts.googleapis.com/css?family=Montserrat" src_type="url" />-->
-<!--&lt;!&ndash;        End Default Css Js&ndash;&gt;-->
+<!--&lt;!&ndash; End Default Css Js&ndash;&gt;-->
+
+
 
 
     </head>
@@ -38,6 +40,7 @@
         <referenceBlock name="footer_links" remove="true"/>
         <referenceBlock name="form.subscribe" remove="true" />
         <referenceBlock name="copyright" remove="true"/>
+
 
 <!--        <referenceBlock name="indexx" remove="true"/>-->
 
