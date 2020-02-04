@@ -4,9 +4,11 @@
         <css src="css/source/_theme.css" rel="stylesheet" type="text/css" />
 
         <css src="css/source/common.css" />
-        <script src="js/modernizr.js" />
+<!--        <script src="css/jquery/jquery-migrate.js "/>&ndash;&gt;-->
+<!--        <css src="css/source/_extend.less" />-->
+<!--        <script src="js/modernizr.js" />-->
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<!--        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>-->
 
 
 <!--&lt;!&ndash;   Default CSS JS&ndash;&gt;-->
@@ -63,6 +65,10 @@
 
         <move element="top.links" destination="header-wrapper" />
         <move element="custom-header-link" destination="top.links" before="-" />
+
+<!--        <move element="header-wrapper" destination="head.additional"   />-->
+
+
 <!--        <move element="top.links" destination="header-wrapper" />-->
 <!--        <referenceBlock name="top.search" remove="true" />-->
 
@@ -71,7 +77,7 @@
 <!--        <referenceBlock name="header.container" remove="true" />-->
 
 <!--            <referenceBlock name="head.additional">-->
-<!--          <block class="Magento\Framework\View\Element\Template" name="custom_header" as="custom_header" template="Magento_Theme::main-header.phtml"/>-->
+<!--          <block class="Magento\Framework\View\Element\Template" name="custom_header" as="custom_header" template="Magento_Theme::header.phtml"/>-->
 <!--            </referenceBlock>-->
 
         <referenceContainer name="footer-container">

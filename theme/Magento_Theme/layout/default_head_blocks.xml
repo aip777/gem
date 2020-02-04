@@ -4,15 +4,34 @@
         <link src="Magento_Theme::feo.png" rel="icon" sizes="35x35" />
 
 
-        <link src_type="url" rel="stylesheet" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+<!--        <link src_type="url" rel="stylesheet" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />-->
 
-           <link src_type="url" rel="stylesheet" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+<!--           <link src_type="url" rel="stylesheet" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />-->
 
-        <script src_type="url" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!--            <script src_type="url" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>-->
 
 
-            <script src_type="url" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!--            <script src_type="url" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>-->
 
+<!--        <script src="requirejs/require.js"/>-->
+
+<!--        <css src="css/styles-m.css" />-->
+<!--        <script src="my-js.js"/>-->
+<!--        <script src="Magento_Catalog::js/compare.js" />-->
+
+<!--         &lt;!&ndash; Remove external resources &ndash;&gt;-->
+<!--        <link src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"/>-->
+<!--        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"/>-->
+<!--        <link src="http://fonts.googleapis.com/css?family=Montserrat" />-->
+
+
+<!--        <link src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"/>-->
+<!--        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"/>-->
+
+
+                   <link src_type="url" rel="stylesheet" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css" />
+
+<!--            <script src_type="url" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>-->
 
 
         
