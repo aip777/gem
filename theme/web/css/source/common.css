@@ -345,4 +345,21 @@ li.greet.welcome {
   border-left: 3px solid #8FC964;
 }
 
+
+/*start*/
+
+.footer-list-wrapper {
+    width: 1180px;
+    margin: 0 auto;
+font-family: "Roboto", sans-serif;
+}
+
+footer li.list-group-item.active, footer li.list-group-item.active a{
+font-size:16px!important;
+}
+footer li.list-group-item a {
+    color: #ccc;
+    font-size: 16px;
+}
+/*end*/
 /*# sourceMappingURL=common.css.map */

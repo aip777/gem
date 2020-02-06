@@ -66,6 +66,7 @@
          <referenceBlock name="footer-container" remove="true"/>
 
         <referenceBlock name="header.container" remove="true" />
+        <referenceBlock name="header-wrapper" remove="true" />
 
 
 

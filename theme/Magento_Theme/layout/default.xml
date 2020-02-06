@@ -59,12 +59,29 @@
 
 <!--        <move element="navigation.sections" destination="header-wrapper" />-->
 <!--        <move element="minicart" destination="header-wrapper"  />-->
+
+        <!--        <move element="top.links" destination="header.container" />-->
+
+
+<!--        <move element="minicart" destination="header.container" />-->
+<!--        <move element="top.search" destination="header.container"   />-->
+<!--        <move element="logo" destination="header.container" />-->
+
+
+<!--        <move element="top.links" destination="header.container" />-->
+<!--        <move element="custom-header-link" destination="top.links" before="-" />-->
+
+
+
         <move element="minicart" destination="header-wrapper" />
-        <move element="top.search" destination="header-wrapper"   />
+        <move element="top.search" destination="header-wrapper"  />
         <move element="logo" destination="header-wrapper" />
 
         <move element="top.links" destination="header-wrapper" />
         <move element="custom-header-link" destination="top.links" before="-" />
+
+
+
 
 <!--        <move element="header-wrapper" destination="head.additional"   />-->
 
